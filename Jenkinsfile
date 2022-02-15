@@ -26,7 +26,7 @@ pipeline {
     stages {
             stage('prep') {
                 steps {
-                git url: 'https://github.com/Cypher6600/weekly-team-report-html.git', branch: 'develop-team-2'
+                git url: 'https://github.com/Cypher6600/french-toast-weekly-report-2.git', branch: 'master'
                 }
             }
             stage('node') {
