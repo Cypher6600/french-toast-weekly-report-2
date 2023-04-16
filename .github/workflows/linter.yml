@@ -1,5 +1,6 @@
 # Start the job on all push #
 #############################
+name: Super-Linter
 on:
   push:
     branches-ignore: [master, main]
@@ -11,7 +12,7 @@ on:
 # Set the Job #
 ###############
 jobs:
-  build:
+  test:
     # Name the Job
     name: Lint Code Base
     # Set the agent to run on
